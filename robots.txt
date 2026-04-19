@@ -1,0 +1,9 @@
+# robots.txt — Haripriya Heart & Eye Care Centre
+# https://haripriyacare.in/
+
+User-agent: *
+Allow: /
+
+Disallow: /drafts/
+
+Sitemap: https://haripriyacare.in/sitemap.xml
