@@ -293,15 +293,6 @@ section.sec { padding: 96px 48px; }
 .hdp-spec { font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-top: 3px; }
 .hdp-spec.g { color: var(--gold); }
 .hdp-spec.t { color: var(--teal); }
-/* Quote sweep — small corner accent on the photo panel */
-.hero-quote-sweep {
-  position: absolute; bottom: 0; right: 0; z-index: 4;
-  background: var(--teal); color: rgba(255,255,255,.92);
-  padding: 14px 18px; max-width: 240px;
-  display: flex; align-items: flex-start; gap: 10px;
-  font-family: 'Playfair Display', serif; font-size: 12.5px; font-style: italic; line-height: 1.6;
-  border-radius: 14px 0 0 0;
-}
 
 /* Stats bar */
 .hero-stats-bar {
@@ -584,23 +575,6 @@ footer { background: var(--ink); padding: 64px 48px 28px; color: rgba(255,255,25
 .exp-item:hover { background: var(--white); box-shadow: var(--shadow-s); transform: translateY(-2px); }
 .exp-item h5 { font-size: 13px; font-weight: 600; margin-bottom: 5px; }
 .exp-item p  { font-size: 12px; color: var(--muted); line-height: 1.6; }
-/* Eye OT callout banner */
-.eye-ot-callout {
-  display: flex; align-items: flex-start; gap: 16px;
-  background: var(--teal-bg); border: 1px solid var(--teal-bdr); border-radius: var(--r);
-  padding: 18px 22px; margin-bottom: 24px;
-}
-.eye-ot-icon { font-size: 18px; color: var(--teal); flex-shrink: 0; margin-top: 2px; }
-.eye-ot-text { font-size: 13px; color: var(--ink); line-height: 1.7; }
-.eye-ot-text strong { color: var(--teal); }
-
-/* Eye Services numbered list */
-.eye-srv-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.eye-srv-item { display: flex; gap: 14px; align-items: flex-start; padding: 18px; background: var(--cream); border-radius: var(--r); border: 1px solid var(--border); transition: all var(--t); }
-.eye-srv-item:hover { background: var(--white); box-shadow: var(--shadow-s); transform: translateY(-2px); border-color: var(--gold-bdr); }
-.esi-num { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 500; color: var(--gold-bdr); line-height: 1; flex-shrink: 0; width: 36px; }
-.esi-body h5 { font-size: 13px; font-weight: 600; margin-bottom: 4px; color: var(--ink); }
-.esi-body p { font-size: 12px; color: var(--muted); line-height: 1.6; }
 
 .blog-hero { padding: 120px 48px 72px; background: var(--warm); }
 .blog-hero-inner { max-width: 1100px; margin: 0 auto; }
@@ -652,7 +626,6 @@ footer { background: var(--ink); padding: 64px 48px 28px; color: rgba(255,255,25
   .stats-inner { padding: 0 20px; }
   /* Prevent any horizontal overflow from slide-in transforms */
   .reveal-r, .reveal-l { max-width: 100%; overflow-x: hidden; }
-  .eye-srv-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 600px) {
   .hero-inner { padding: 24px 16px 0; }
@@ -672,7 +645,6 @@ footer { background: var(--ink); padding: 64px 48px 28px; color: rgba(255,255,25
   .profile-photo-card { max-width: 100%; }
   .proc-nav button { font-size: 12px; padding: 8px 12px; }
   .blog-hero { padding-top: 80px; }
-  .eye-srv-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 420px) {
   .hero-title { font-size: 24px; }
