@@ -18,6 +18,7 @@
   var burger   = document.getElementById('hamburger');
   var navLinks = document.getElementById('navLinks');
   if (burger && navLinks) {
+    if (!burger.hasAttribute('aria-expanded')) burger.setAttribute('aria-expanded', 'false');
     burger.addEventListener('click', function () {
       var open = navLinks.classList.toggle('open');
       burger.classList.toggle('open', open);

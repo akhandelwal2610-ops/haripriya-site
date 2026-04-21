@@ -3,19 +3,15 @@
 
   <!-- Core pages -->
   <url><loc>https://haripriyacare.in/</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://haripriyacare.in/about.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://haripriyacare.in/contact.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://haripriyacare.in/cardiology.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://haripriyacare.in/eye-care.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://haripriyacare.in/doctors/dr-hari-om-tyagi.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
   <url><loc>https://haripriyacare.in/doctors/dr-jeenu-priya-tyagi.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
   <url><loc>https://haripriyacare.in/blog/</loc><lastmod>2026-04-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 
   <!-- Blog articles -->
-  <url><loc>https://haripriyacare.in/blog/heart-attack-vs-heartburn.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://haripriyacare.in/blog/cataract-surgery-2025.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://haripriyacare.in/blog/diabetes-and-eyes.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://haripriyacare.in/blog/coronary-angioplasty-guide.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://haripriyacare.in/blog/lasik-vs-smile.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://haripriyacare.in/blog/living-with-pacemaker.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://haripriyacare.in/blog/glaucoma-silent-thief.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://haripriyacare.in/blog/heart-eye-health-after-40.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://haripriyacare.in/blog/high-blood-pressure.html</loc><lastmod>2026-04-19</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <!-- Note: individual articles will be added here once full content is published. -->
 
 </urlset>

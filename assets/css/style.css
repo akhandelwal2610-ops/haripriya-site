@@ -1,7 +1,7 @@
 /* ============================================================
    HARIPRIYA HEART & EYE CARE CENTRE
    Design System — Logo-matched palette
-   Gold: #C8922A  |  Teal: #1A6050
+   Gold: #C8922A
    ============================================================ */
 
 /* ---- CUSTOM PROPERTIES ---- */
@@ -12,10 +12,11 @@
   --gold-d:     #A07020;
   --gold-bg:    rgba(200,146,42,0.09);
   --gold-bdr:   rgba(200,146,42,0.22);
-  --teal:       #1A6050;
-  --teal-l:     #267A62;
-  --teal-bg:    rgba(26,96,80,0.09);
-  --teal-bdr:   rgba(26,96,80,0.22);
+  /* Teal accents were unified into gold for brand consistency */
+  --teal:       var(--gold);
+  --teal-l:     var(--gold-l);
+  --teal-bg:    var(--gold-bg);
+  --teal-bdr:   var(--gold-bdr);
   /* Neutrals */
   --cream:      #FAF8F4;
   --warm:       #F5EFE4;
@@ -252,7 +253,7 @@ section.sec { padding: 96px 48px; }
 .hero-circle-deco {
   position: absolute; right: -60px; top: -60px;
   width: 420px; height: 420px; border-radius: 50%;
-  background: radial-gradient(circle, rgba(26,96,80,.10) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(200,146,42,.10) 0%, transparent 70%);
   pointer-events: none; z-index: 0;
 }
 .hero-lineart {
@@ -272,7 +273,12 @@ section.sec { padding: 96px 48px; }
 .hero-doc-pane:hover { transform: translateY(-6px); }
 .hdp-offset { margin-bottom: 20px; height: 400px; }
 .hero-doc-pane img {
-  width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  display: block;
+  padding: 10px 6px 0;
 }
 .hdp-name-card {
   position: absolute; bottom: 0; left: 0; right: 0;
@@ -361,7 +367,7 @@ section.sec { padding: 96px 48px; }
   padding: 24px 16px; position: relative;
 }
 .dcf-photo::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(200,146,42,.06), transparent); }
-.dcf-photo.tp::before { background: linear-gradient(135deg, rgba(26,96,80,.06), transparent); }
+.dcf-photo.tp::before { background: linear-gradient(135deg, rgba(200,146,42,.06), transparent); }
 .dcf-avatar { width: 90px; height: 90px; border-radius: 50%; overflow: hidden; border: 3px solid rgba(255,255,255,.65); box-shadow: 0 4px 16px rgba(0,0,0,.14); position: relative; z-index: 1; }
 .dcf-avatar img { width: 100%; height: 100%; object-fit: cover; }
 .dcf-spec { font-size: 9px; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; padding: 4px 12px; border-radius: 20px; position: relative; z-index: 1; }
