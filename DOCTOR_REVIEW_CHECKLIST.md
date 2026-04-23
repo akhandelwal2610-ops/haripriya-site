@@ -2,7 +2,7 @@
 
 ## WhatsApp message (copy/paste)
 
-Hello Doctor, I’ve shared a preview of the new Haripriya website for your review.
+Hello Mam, I’ve shared a preview of the new Haripriya website for your review.
 
 Could you please check:
 - English + Hindi (bilingual) wording/accuracy

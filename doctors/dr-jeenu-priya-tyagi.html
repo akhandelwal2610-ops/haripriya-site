@@ -26,40 +26,40 @@
 <body>
 
 <!-- NAV -->
-<nav class="site-nav" id="siteNav">
-  <a href="../index.html" class="nav-logo" aria-label="Haripriya Home">
-    <img src="../assets/images/haripriya-logo.png" alt="Haripriya Heart &amp; Eye Care Centre"/>
-  </a>
-  <div class="nav-links" id="navLinks">
-    <a href="../index.html#doctors">Doctors</a>
-    <a href="../index.html#procedures">Procedures</a>
-    <a href="../index.html#services">Services</a>
-    <a href="../blog/index.html">Blog</a>
-    <a href="../index.html#contact">Contact</a>
-  </div>
-  <div class="nav-right">
-    <div class="lang-btns">
-      <button class="lb active" onclick="setLang('en',this)">EN</button>
-      <button class="lb" onclick="setLang('hi',this)">हिं</button>
+<nav class="glass-nav" id="siteNav">
+  <div class="nav-container">
+    <a href="../index.html" class="nav-logo" aria-label="Haripriya Home">
+      <img src="../assets/images/haripriya-logo.png" alt="Haripriya Heart &amp; Eye Care Centre"/>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="../index.html" class="i18n" data-hi="होम">Home</a>
+      <a href="../index.html#doctors" class="i18n" data-hi="डॉक्टर">Doctors</a>
+      <a href="../index.html#procedures" class="i18n" data-hi="प्रक्रियाएं">Procedures</a>
+      <a href="../index.html#services" class="i18n" data-hi="सेवाएं">Services</a>
+      <a href="../blog/index.html" class="i18n" data-hi="ब्लॉग">Blog</a>
+      <a href="../index.html#contact" class="i18n" data-hi="संपर्क">Contact</a>
     </div>
-    <a href="tel:+917217327979" class="nav-cta">📞 Book Appointment</a>
-    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="nav-right">
+      <div class="lang-toggle-wrap glass-card">
+        <button class="lb active" onclick="setLang('en',this)">EN</button>
+        <button class="lb" onclick="setLang('hi',this)">हिं</button>
+      </div>
+      <a href="tel:+917217327979" class="btn-premium">
+        <span class="btn-glow"></span>
+        <span class="i18n" data-hi="कॉल / व्हाट्सएप">Call / WhatsApp</span>
+      </a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </nav>
 
 <!-- PROFILE HERO -->
 <div class="profile-hero" style="background: linear-gradient(135deg, var(--warm), rgba(200,146,42,.05));">
   <div class="profile-inner">
-    <div class="profile-photo-card reveal-l">
-      <div class="profile-photo">
-        <img src="../assets/images/dr-jeenu-priya-tyagi.jpg" alt="Dr. Jeenu Priya Tyagi — Ophthalmologist, Meerut"/>
-      </div>
-      <div class="profile-photo-body">
-        <div class="profile-name-sm">Dr. Jeenu Priya Tyagi</div>
-        <div class="profile-name-hi-sm">डॉ. जीनू प्रिया त्यागी</div>
-      </div>
+    <div class="profile-model-float reveal-l">
+      <img src="../assets/images/cutouts/dr-jeenu-priya-tyagi-shadow.png" class="profile-cutout" alt="Dr. Jeenu Priya Tyagi — Eye Surgeon, Meerut"/>
     </div>
     <div class="profile-info reveal-r">
       <span style="display:inline-flex;align-items:center;gap:8px;margin-bottom:14px;">
@@ -220,7 +220,11 @@
   </div>
 </footer>
 
-<a href="https://wa.me/917217327979?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Jeenu%20Priya%20Tyagi%20at%20Haripriya%20Centre." class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">💬</a>
+<a href="https://wa.me/917217327979?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Jeenu%20Priya%20Tyagi%20at%20Haripriya%20Centre." class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white" style="margin-top:2px;">
+    <path d="M12.01 2.01c-5.52 0-10 4.48-10 10 0 1.95.56 3.78 1.54 5.31L2.2 21.8l4.63-1.22c1.5.93 3.27 1.45 5.18 1.45 5.52 0 10-4.48 10-10s-4.48-10-10-10zm5.67 14.4c-.26.74-1.5.1-2.91-.71-2.02-1.15-3.32-3.32-3.41-3.45-.1-.13-1.24-1.66-1.24-3.17 0-1.51.78-2.25 1.05-2.55.27-.3.59-.38.79-.38s.39 0 .59.01c.21.01.49-.08.77.58.28.67.95 2.33 1.04 2.52.09.19.14.42.01.68-.13.26-.2.43-.39.66-.2.23-.42.52-.59.69-.19.19-.38.39-.16.77.22.38.98 1.62 2.1 2.62 1.45 1.29 2.65 1.69 3.03 1.88.38.19.61.16.84-.1.23-.26.98-1.14 1.24-1.54.26-.39.52-.33.87-.2.35.13 2.22 1.05 2.61 1.24.39.19.65.29.75.45.1.16.1.92-.16 1.66z"/>
+  </svg>
+</a>
 <script src="../assets/js/main.js"></script>
 </body>
 </html>
